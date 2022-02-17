@@ -65,10 +65,6 @@ Resources:
         Variables:
           LOG_FILE_PATH: !Sub s3://${S3BucketMain}/data/weblog.csv
       Timeout: 900
-  
-  # send notification from lambda
-  # ElaborationResultTopic:
-  #   Type: AWS::SNS::Topic
 
 Outputs:
   S3BucketData:

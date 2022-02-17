@@ -1,4 +1,3 @@
-from email.message import Message
 import boto3
 import zipfile
 from io import BytesIO
